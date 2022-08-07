@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.j2ee.server:SpringMVC" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:SpringEX" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:MyMavenWeb" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HelloWorldWeb" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:MyMavenWebInput" serverId="Tomcat v9.0 Server at localhost"/>
+</modules>

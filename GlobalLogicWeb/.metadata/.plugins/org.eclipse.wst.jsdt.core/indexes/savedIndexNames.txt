@@ -1,0 +1,12 @@
+INDEX VERSION 1.4+D:\GlobalLogicWeb\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3921216551.index
+883664526.index
+292036102.index
+288887951.index
+1828422195.index
+1904638061.index
+893552416.index
+3754229226.index
+3342984063.index
+145002494.index
+2427463281.index

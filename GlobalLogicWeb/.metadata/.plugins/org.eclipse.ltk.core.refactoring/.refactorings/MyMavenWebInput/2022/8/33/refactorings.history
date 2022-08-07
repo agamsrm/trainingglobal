@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MyMavenWebInput/src/main/webapp/home.html&apos; to &apos;myhome.html&apos;" description="Rename resource &apos;home.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/home.html" name="myhome.html" stamp="1659887084958" updateReferences="true"/>
+</session>

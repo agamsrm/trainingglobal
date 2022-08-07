@@ -1,0 +1,40 @@
+package com.globallogic.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ 
+ */
+public class Infrorm extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		RequestDispatcher rs = request.getRequestDispatcher("/home.html");
+		rs.forward(request, response);
+
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		String name = request.getParameter("Username");
+		String pass = request.getParameter("Password");
+		RequestDispatcher rs = request.getRequestDispatcher("/Inform.jsp");
+
+		System.out.println("I am post request inform");
+
+		request.setAttribute("name", name);
+		request.setAttribute("password", pass);
+		rs.forward(request, response);
+
+	}
+
+}
