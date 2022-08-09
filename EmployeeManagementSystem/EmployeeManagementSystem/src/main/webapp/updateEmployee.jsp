@@ -9,7 +9,7 @@
 <body>
 
 <!-- EmployeeId, Password, EmployeeType, FirstName, LastName, Address, PhoneNo, Email, Gender, HireDate, Salary -->
-<h1><center>UPDATE EMPLOYEE DETAILS PAGE </center></h1>
+<h1><center>EMPLOYEE PAGE UPDATION </center></h1>
 <h2>
 
 <form method="POST" action="UpdateEmployeeDetailsController">

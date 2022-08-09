@@ -25,7 +25,7 @@ public class HomePageController extends HttpServlet {
 
 		System.out.println("Username : " + name);
 		System.out.println("Password : " + password);
-		if (name.equalsIgnoreCase("Gaurav") && password.equalsIgnoreCase("Gaurav")) {
+		if (name.equalsIgnoreCase("Agam") && password.equalsIgnoreCase("Agam")) {
 					
 			try {
 				listEmployee(request, response);
